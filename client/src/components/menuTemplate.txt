@@ -1,0 +1,36 @@
+MENU STRUCTURE: 
+{
+    "title": "",
+    "description": "",
+    "items": [ITEM]
+}
+
+ITEM STRUCTORE
+{
+    "id": 0,
+    "title": "",
+    "description": "",
+    "price": 0,
+    "image_url": "",
+    "options": [
+        {
+            "title":"",
+            optionCollection:[
+                {
+                    "optionTitle": "",
+                    "extraPrice": 0,
+                    "isChecked": false,
+                    "isMultiple": false
+                }
+            ]
+        }
+    ]
+}
+
+ADDED ITEM STRUCTURE: 
+{
+    "menu_title":"",
+    "quantity":0,
+    "new_price":0,
+    "item": ITEM
+}
